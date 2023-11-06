@@ -1,0 +1,121 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #333;
+    color: #7c0965;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #951381;
+    font-weight: bold;
+}
+
+main {
+    margin: 20px;
+}
+
+/* Estilo da seção de produtos */
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    flex: 1;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+li img {
+    max-width: 100%;
+    height: auto;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 14px;
+}
+
+span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff5733; /* Cor personalizada para preços */
+}
+
+button {
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Estilos adicionais podem ser adicionados conforme necessário */
+
+@media screen and (min-width: 480px) {
+
+    /*********************/
+    /* Cabeçalho do tema */
+    /*********************/
+
+    #wrap>header  {
+        font-size: 3rem;
+    }
+    
+    #wrap>li {
+        font-size: 4rem;
+    }
+
+}
